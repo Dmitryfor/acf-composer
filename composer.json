@@ -1,0 +1,23 @@
+{
+    "name": "for/acf-composer",
+    "description": "Testing build acf fields and resource views",
+    "autoload": {
+        "psr-4": {
+            "For\\AcfComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dmitryfor",
+            "email": "dimaportnov2000@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "scripts": {
+        "setup:testimonial" : [
+            "mkdir -p resources/views/testimonial"
+        ]
+    }
+}
