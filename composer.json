@@ -1,5 +1,5 @@
 {
-    "name": "for/acf-composer",
+    "name": "dmitryfor/acf-composer",
     "description": "Testing build acf fields and resource views",
     "autoload": {
         "psr-4": {
